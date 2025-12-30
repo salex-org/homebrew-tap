@@ -14,22 +14,22 @@ cask "ikea-dirigera-cli" do
   on_macos do
     on_intel do
       url "https://github.com/salex-org/ikea-dirigera-client/releases/download/v#{version}/ikea-dirigera-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "03874e19836f2bda34cc7e0826d77f217e8e207dd8f8a58c34a910c7b73375e8"
+      sha256 "18390b3a84f6e89f7eb362f055de6c3bef12f4f63679d08363b49d7360598613"
     end
     on_arm do
       url "https://github.com/salex-org/ikea-dirigera-client/releases/download/v#{version}/ikea-dirigera-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "389e3df49038b5728c8b0d831114e3dd13d18ae59b7b667d30d1bbd4f2d2ef82"
+      sha256 "74c02d8aa3e426a33147c6a15d1da22860eae4b3e68d7b1c2c0e4e36ce2112df"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/salex-org/ikea-dirigera-client/releases/download/v#{version}/ikea-dirigera-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "0a1eb8d05b7043d4e7d8efaa54bb025a19e0a9a3f32d12dcafe178fbdb9010a3"
+      sha256 "8530a187996c3321b7453c968dc666604a15af561d56cf32365d97337ae4dfd9"
     end
     on_arm do
       url "https://github.com/salex-org/ikea-dirigera-client/releases/download/v#{version}/ikea-dirigera-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "47abb46b4bf0b1687292def812c3f19675ceb10f91adf8d2b9553a6660c8851f"
+      sha256 "b58cf1a31e168b16a66136d25be4827565fefb0f9fb003773fafdeb035550be7"
     end
   end
 
