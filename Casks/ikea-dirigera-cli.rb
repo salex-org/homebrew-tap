@@ -3,7 +3,7 @@ cask "ikea-dirigera-cli" do
   name "ikea-dirigera-cli"
   desc "A CLI for the IKEA DIRIGERA Smart-Home-Hub"
   homepage "https://github.com/salex-org/ikea-dirigera-client"
-  version "1.0.0"
+  version "1.0.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "ikea-dirigera-cli" do
   on_macos do
     on_intel do
       url "https://github.com/salex-org/ikea-dirigera-client/releases/download/v#{version}/ikea-dirigera-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "18390b3a84f6e89f7eb362f055de6c3bef12f4f63679d08363b49d7360598613"
+      sha256 "15b01fd093e6a2ab79fda2209711f5641eae60d96eb68fc087b3d00be64b7437"
     end
     on_arm do
       url "https://github.com/salex-org/ikea-dirigera-client/releases/download/v#{version}/ikea-dirigera-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "74c02d8aa3e426a33147c6a15d1da22860eae4b3e68d7b1c2c0e4e36ce2112df"
+      sha256 "3c39eda3a419de75d1d6671ee8d889ef5b4968cb23d3267a81ec6c729b096505"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/salex-org/ikea-dirigera-client/releases/download/v#{version}/ikea-dirigera-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "8530a187996c3321b7453c968dc666604a15af561d56cf32365d97337ae4dfd9"
+      sha256 "5e48199085cb63ea38d2e314e09bab029395767b27c5ef8d828bbf543dacba7d"
     end
     on_arm do
       url "https://github.com/salex-org/ikea-dirigera-client/releases/download/v#{version}/ikea-dirigera-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "b58cf1a31e168b16a66136d25be4827565fefb0f9fb003773fafdeb035550be7"
+      sha256 "34baaa7181abd6bb45227387bc72409c654673d8ce64b4cd1e50b24caba2a9b4"
     end
   end
 
